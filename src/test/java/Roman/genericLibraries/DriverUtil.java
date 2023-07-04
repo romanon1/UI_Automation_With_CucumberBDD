@@ -1,4 +1,4 @@
-package Roman.utils;
+package Roman.genericLibraries;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

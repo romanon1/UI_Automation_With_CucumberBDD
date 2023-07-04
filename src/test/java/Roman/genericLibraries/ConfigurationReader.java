@@ -1,4 +1,4 @@
-package Roman.utils;
+package Roman.genericLibraries;
 
 import java.io.FileInputStream;
 import java.util.Properties;
