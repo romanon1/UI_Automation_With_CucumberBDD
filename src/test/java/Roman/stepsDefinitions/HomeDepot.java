@@ -1,7 +1,5 @@
 package Roman.stepsDefinitions;
 
-import Roman.genericLibraries.ConfigurationReader;
-import Roman.genericLibraries.DriverUtil;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
