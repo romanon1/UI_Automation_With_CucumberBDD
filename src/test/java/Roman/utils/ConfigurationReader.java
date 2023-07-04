@@ -3,12 +3,12 @@ package Roman.utils;
 import java.io.FileInputStream;
 import java.util.Properties;
 
-public class ConfigReader {
+public class ConfigurationReader {
     private static Properties configFile;
+
     static {
         try {
-
-            FileInputStream fileInputStream = new FileInputStream("configuration.properties");
+            FileInputStream fileInputStream = new FileInputStream(Constants.Configuration_FilePath);
             configFile = new Properties();
             configFile.load(fileInputStream);
             fileInputStream.close();
